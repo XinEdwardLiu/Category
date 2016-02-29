@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBA16D91C83A0E400ED90C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16D81C83A0E400ED90C9 /* AppDelegate.m */; };
+		BDBA16DC1C83A0E400ED90C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16DB1C83A0E400ED90C9 /* main.m */; };
+		BDBA16DF1C83A0E400ED90C9 /* CDBookshelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16DD1C83A0E400ED90C9 /* CDBookshelf.xcdatamodeld */; };
+		BDBA16E11C83A0E400ED90C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBA16E01C83A0E400ED90C9 /* Assets.xcassets */; };
+		BDBA16E41C83A0E400ED90C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBA16E21C83A0E400ED90C9 /* MainMenu.xib */; };
+		BDBA16F71C83B8EB00ED90C9 /* Chapter+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16EC1C83B8EB00ED90C9 /* Chapter+CoreDataProperties.m */; };
+		BDBA16F81C83B8EB00ED90C9 /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16EE1C83B8EB00ED90C9 /* Chapter.m */; };
+		BDBA16F91C83B8EB00ED90C9 /* Author+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16F01C83B8EB00ED90C9 /* Author+CoreDataProperties.m */; };
+		BDBA16FA1C83B8EB00ED90C9 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16F21C83B8EB00ED90C9 /* Author.m */; };
+		BDBA16FB1C83B8EB00ED90C9 /* PragBook+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16F41C83B8EB00ED90C9 /* PragBook+CoreDataProperties.m */; };
+		BDBA16FC1C83B8EB00ED90C9 /* PragBook.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA16F61C83B8EB00ED90C9 /* PragBook.m */; };
+		BDBA17021C83BF5B00ED90C9 /* PragBook+Report.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBA17011C83BF5B00ED90C9 /* PragBook+Report.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDBA16D41C83A0E400ED90C9 /* CDBookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBA16D71C83A0E400ED90C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDBA16D81C83A0E400ED90C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDBA16DB1C83A0E400ED90C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDBA16DE1C83A0E400ED90C9 /* CDBookshelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDBookshelf.xcdatamodel; sourceTree = "<group>"; };
+		BDBA16E01C83A0E400ED90C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBA16E31C83A0E400ED90C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDBA16E51C83A0E400ED90C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBA16EB1C83B8EB00ED90C9 /* Chapter+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chapter+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BDBA16EC1C83B8EB00ED90C9 /* Chapter+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Chapter+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BDBA16ED1C83B8EB00ED90C9 /* Chapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		BDBA16EE1C83B8EB00ED90C9 /* Chapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
+		BDBA16EF1C83B8EB00ED90C9 /* Author+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Author+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BDBA16F01C83B8EB00ED90C9 /* Author+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Author+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BDBA16F11C83B8EB00ED90C9 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		BDBA16F21C83B8EB00ED90C9 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		BDBA16F31C83B8EB00ED90C9 /* PragBook+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PragBook+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BDBA16F41C83B8EB00ED90C9 /* PragBook+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PragBook+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BDBA16F51C83B8EB00ED90C9 /* PragBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PragBook.h; sourceTree = "<group>"; };
+		BDBA16F61C83B8EB00ED90C9 /* PragBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PragBook.m; sourceTree = "<group>"; };
+		BDBA17001C83BF5B00ED90C9 /* PragBook+Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PragBook+Report.h"; sourceTree = "<group>"; };
+		BDBA17011C83BF5B00ED90C9 /* PragBook+Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PragBook+Report.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBA16D11C83A0E400ED90C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBA16CB1C83A0E300ED90C9 = {
+			isa = PBXGroup;
+			children = (
+				BDBA17001C83BF5B00ED90C9 /* PragBook+Report.h */,
+				BDBA17011C83BF5B00ED90C9 /* PragBook+Report.m */,
+				BDBA16EB1C83B8EB00ED90C9 /* Chapter+CoreDataProperties.h */,
+				BDBA16EC1C83B8EB00ED90C9 /* Chapter+CoreDataProperties.m */,
+				BDBA16ED1C83B8EB00ED90C9 /* Chapter.h */,
+				BDBA16EE1C83B8EB00ED90C9 /* Chapter.m */,
+				BDBA16EF1C83B8EB00ED90C9 /* Author+CoreDataProperties.h */,
+				BDBA16F01C83B8EB00ED90C9 /* Author+CoreDataProperties.m */,
+				BDBA16F11C83B8EB00ED90C9 /* Author.h */,
+				BDBA16F21C83B8EB00ED90C9 /* Author.m */,
+				BDBA16F31C83B8EB00ED90C9 /* PragBook+CoreDataProperties.h */,
+				BDBA16F41C83B8EB00ED90C9 /* PragBook+CoreDataProperties.m */,
+				BDBA16F51C83B8EB00ED90C9 /* PragBook.h */,
+				BDBA16F61C83B8EB00ED90C9 /* PragBook.m */,
+				BDBA16D61C83A0E400ED90C9 /* CDBookshelf */,
+				BDBA16D51C83A0E400ED90C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBA16D51C83A0E400ED90C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBA16D41C83A0E400ED90C9 /* CDBookshelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBA16D61C83A0E400ED90C9 /* CDBookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				BDBA16D71C83A0E400ED90C9 /* AppDelegate.h */,
+				BDBA16D81C83A0E400ED90C9 /* AppDelegate.m */,
+				BDBA16E01C83A0E400ED90C9 /* Assets.xcassets */,
+				BDBA16E21C83A0E400ED90C9 /* MainMenu.xib */,
+				BDBA16E51C83A0E400ED90C9 /* Info.plist */,
+				BDBA16DD1C83A0E400ED90C9 /* CDBookshelf.xcdatamodeld */,
+				BDBA16DA1C83A0E400ED90C9 /* Supporting Files */,
+			);
+			path = CDBookshelf;
+			sourceTree = "<group>";
+		};
+		BDBA16DA1C83A0E400ED90C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBA16DB1C83A0E400ED90C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBA16D31C83A0E400ED90C9 /* CDBookshelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBA16E81C83A0E400ED90C9 /* Build configuration list for PBXNativeTarget "CDBookshelf" */;
+			buildPhases = (
+				BDBA16D01C83A0E400ED90C9 /* Sources */,
+				BDBA16D11C83A0E400ED90C9 /* Frameworks */,
+				BDBA16D21C83A0E400ED90C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDBookshelf;
+			productName = CDBookshelf;
+			productReference = BDBA16D41C83A0E400ED90C9 /* CDBookshelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBA16CC1C83A0E300ED90C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Edward Liu";
+				TargetAttributes = {
+					BDBA16D31C83A0E400ED90C9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BDBA16CF1C83A0E300ED90C9 /* Build configuration list for PBXProject "CDBookshelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBA16CB1C83A0E300ED90C9;
+			productRefGroup = BDBA16D51C83A0E400ED90C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBA16D31C83A0E400ED90C9 /* CDBookshelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBA16D21C83A0E400ED90C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBA16E11C83A0E400ED90C9 /* Assets.xcassets in Resources */,
+				BDBA16E41C83A0E400ED90C9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBA16D01C83A0E400ED90C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBA16FB1C83B8EB00ED90C9 /* PragBook+CoreDataProperties.m in Sources */,
+				BDBA16FC1C83B8EB00ED90C9 /* PragBook.m in Sources */,
+				BDBA16DC1C83A0E400ED90C9 /* main.m in Sources */,
+				BDBA16F71C83B8EB00ED90C9 /* Chapter+CoreDataProperties.m in Sources */,
+				BDBA16FA1C83B8EB00ED90C9 /* Author.m in Sources */,
+				BDBA16DF1C83A0E400ED90C9 /* CDBookshelf.xcdatamodeld in Sources */,
+				BDBA17021C83BF5B00ED90C9 /* PragBook+Report.m in Sources */,
+				BDBA16F81C83B8EB00ED90C9 /* Chapter.m in Sources */,
+				BDBA16F91C83B8EB00ED90C9 /* Author+CoreDataProperties.m in Sources */,
+				BDBA16D91C83A0E400ED90C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDBA16E21C83A0E400ED90C9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBA16E31C83A0E400ED90C9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBA16E61C83A0E400ED90C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDBA16E71C83A0E400ED90C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDBA16E91C83A0E400ED90C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CDBookshelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ED.CDBookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDBA16EA1C83A0E400ED90C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CDBookshelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ED.CDBookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBA16CF1C83A0E300ED90C9 /* Build configuration list for PBXProject "CDBookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA16E61C83A0E400ED90C9 /* Debug */,
+				BDBA16E71C83A0E400ED90C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBA16E81C83A0E400ED90C9 /* Build configuration list for PBXNativeTarget "CDBookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA16E91C83A0E400ED90C9 /* Debug */,
+				BDBA16EA1C83A0E400ED90C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDBA16DD1C83A0E400ED90C9 /* CDBookshelf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDBA16DE1C83A0E400ED90C9 /* CDBookshelf.xcdatamodel */,
+			);
+			currentVersion = BDBA16DE1C83A0E400ED90C9 /* CDBookshelf.xcdatamodel */;
+			path = CDBookshelf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDBA16CC1C83A0E300ED90C9 /* Project object */;
+}
